@@ -17,6 +17,23 @@ body {
   font-weight: bold;
 }
 
+p {
+  font-size: 14px;
+}
+
+h2 {
+  font-weight: bold;
+  font-size: 23px;
+  margin-bottom: 20px;
+}
+
+a.font-black {
+  color: #000 !important;
+}
+
+.name {
+  color: rgb(1, 41, 1);
+}
 /*******************
 
 ABOUT
@@ -31,7 +48,8 @@ ABOUT
 
 #about img {
   border-radius: 50%;
-  width: 120px;
+  width: 100px;
+  height: 16vh;
   margin-bottom: 10px;
 }
 
