@@ -31,9 +31,6 @@ a.font-black {
   color: #000 !important;
 }
 
-.name {
-  color: rgb(1, 41, 1);
-}
 /*******************
 
 ABOUT
@@ -48,8 +45,8 @@ ABOUT
 
 #about img {
   border-radius: 50%;
-  width: 100px;
-  height: 16vh;
+  width: 90px;
+  height: 120px;
   margin-bottom: 10px;
 }
 
@@ -81,4 +78,27 @@ ABOUT
 
 #about .icons a {
   color: #000;
+}
+
+/***********************
+
+Project
+
+*************************/
+
+#project {
+  margin: 60px auto;
+  width: 80%;
+}
+
+#project h2 {
+  text-align: center;
+}
+
+#project .card img {
+  width: 100%;
+}
+
+#project .card-title {
+  font-weight: bold;
 }
